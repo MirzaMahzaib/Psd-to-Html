@@ -1,0 +1,322 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0px;
+	background:url(../images/bodybg_03.jpg);
+}
+
+h1,h2,h3,h4,h5,h6,p,a,ul,li,ol{
+	padding:0px;
+	margin:0px;
+	list-style:none;
+	text-decoration:none;
+}
+
+.container{
+	width:766px;
+	height:auto;
+	overflow:hidden;
+	margin:auto;
+	background:#fff;
+}
+
+.headerbg{
+	background: linear-gradient(to bottom, #f3f3f3 0%,#e6e6e6 0%,#e3e3e3 1%,#e7e7e7 1%,#e9e9e9 2%,#fcfcfc 22%,#fcfcfc 28%,#fafafa 30%,#f0f0f0 75%,#ededed 100%);
+	width:100%;
+	height:260px;
+	float:left;
+}
+
+.title{
+	width:350px;
+	height:220px;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:69.28px;
+	font-weight:bold;
+	color:#585858;
+	line-height: 56px;
+    letter-spacing: -1px;
+	margin-top:20px;
+	margin-left:60px;
+}
+.title span{
+	color:#5fbecc;
+}
+
+.navbar{
+	width:350px;
+	height:40px;
+	float:left;
+	margin-top:50px;
+}
+
+.navbar  ul li a{
+	float:left;
+	padding:12px 35px;
+	color:#5fbecc;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:14px;
+}
+
+.navbar ul li a:hover{
+	padding:12px 35px;
+	color:#fff;
+	background:#5fbecc;
+	border-radius:30px;
+}
+
+.banner{
+	width:710px;
+	height:225px;
+	float:left;
+	margin-left:30px;
+	margin-top:35px;
+}
+
+.work{
+	width:707px;
+	height:30px;
+	float:left;
+	margin-left:30px;
+	border-bottom:#585858 1px solid;
+}
+
+.work img{
+	margin-left:1px;
+	margin-top:7px;
+	float:left;
+}
+
+.work p{
+	font-size:14px;
+	font-weight:normal;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#585858;
+	margin-top:10px;
+	margin-left:8px;
+	float:left;
+}
+
+.gallery{
+	width:710px;
+	height:auto;
+	float:left;
+	margin-left:30px;
+}
+
+.gimg1{
+	float:left;
+	margin-top:10px;
+}
+
+.gimg{
+	float:left;
+	margin-left:12.5px;
+	margin-top:10px;
+}
+
+.footer{
+	width:100%;
+	height:300px;
+	float:left;
+	background: linear-gradient(to bottom, #f6f6f6 0%,#e7e7e7 28%,#cacaca 71%,#bdbdbd 95%,#bdbdbd 99%,#bababa 99%,#bdbdbd 100%,#b2b2b2 100%);
+	margin-top:30px;
+}
+
+.fleft{
+	width:340px;
+	height:auto;
+	float:left;
+	margin-left:30px;
+	margin-top:40px;
+}
+
+.tweets{
+	width:337px;
+	height:30px;
+	float:left;
+	border-bottom:#585858 1px solid;
+	margin-left:1.5px;
+}
+
+.tweets img{
+	margin-top:5px;
+	margin-left:1px;
+	float:left;
+}
+
+.tweets p{
+	margin-top:7px;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	margin-left:7px;
+	color:#585858;
+}
+
+.tweets a{
+	color:#5fbecc;
+	float:right;
+	margin-top:7px;
+	margin-right:2px;
+}
+
+.tweet1{
+	width:337px;
+	height:60px;
+	float:left;
+	background:url(../images/text_03.png);
+	margin-top:10px;
+	margin-left:1.5px;
+}
+
+.tweet1 p{
+	float:left;
+	margin-left:15px;
+	color:#fff;
+	font-size:11px;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-top:20px;
+}
+
+.tweet1 p a{
+	color:#5fbecc;
+}
+
+.tweet2{
+	width:337px;
+	height:45px;
+	float:left;
+	background:url(../images/s-text_03.png);
+	margin-top:10px;
+	margin-left:1.5px;
+}
+
+.tweet2 p{
+	float:left;
+	margin-left:15px;
+	color:#fff;
+	font-size:11px;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-top:20px;
+}
+
+.tweet2 p a{
+	color:#5fbecc;
+}
+
+.tweet3{
+	width:337px;
+	height:60px;
+	float:left;
+	background:url(../images/text_03.png);
+	margin-top:10px;
+	margin-left:1.5px;
+}
+
+.tweet3 p{
+	float:left;
+	margin-left:15px;
+	color:#fff;
+	font-size:11px;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-top:20px;
+}
+
+.tweet3 p a{
+	color:#5fbecc;
+}
+
+
+.fright{
+	width:340px;
+	height:auto;
+	float:left;
+	margin-left:30px;
+	margin-top:40px;
+}
+
+.network{
+	width:337px;
+	height:30px;
+	float:left;
+	border-bottom:#585858 1px solid;
+	margin-left:1.5px;
+}
+
+.network img{
+	margin-top:5px;
+	margin-left:1px;
+	float:left;
+}
+
+.network p{
+	margin-top:7px;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	margin-left:7px;
+	color:#585858;
+}
+
+.socialicons{
+	margin-top:10px;
+	float:left;
+}
+
+.simg{
+	margin-left:10px;
+	float:left;
+}
+
+.simg1{
+	margin-left:0px;
+	float:left;
+}
+
+.rprojects{
+	width:337px;
+	height:30px;
+	float:left;
+	border-bottom:#585858 1px solid;
+	margin-left:1.5px;
+	margin-top:20px;
+}
+
+.pimg{
+
+    margin-top: 0px;
+    margin-left: 10px;
+    float: left;
+}
+
+.pimg1{
+	float:left;
+	margin-left:0px;
+}
+
+.rprojects p{
+	margin-top:7px;
+	float:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	margin-left:7px;
+	color:#585858;
+}
+
+.rprojects img{
+	margin-top:5px;
+	margin-left:1px;
+	float:left;
+}
+
+
+
+
+
+
+
+
